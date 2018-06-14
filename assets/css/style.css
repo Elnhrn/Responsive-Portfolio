@@ -285,4 +285,10 @@ h3 {
     .content-body {
         padding: 2% 0 0;
     }
+    h3 {
+        margin-top: 59%;
+        width:95%;
+        margin-left: 0;
+        font-size: 17px;
+    }
 }
