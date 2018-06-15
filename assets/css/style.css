@@ -215,13 +215,20 @@ h3 {
 
 @media screen and (max-width: 768px) {
     h3 {
-        margin-top: 49%;
-        width:96%;
-        margin-left: 0;
-        font-size: 18px;
+        width:95%;
+        margin-left: 2.5%; 
+        font-size: 17px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        margin-top: 0;
+        box-sizing: border-box;
     }
     .button {
-        padding: 0 1%;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        margin: 20px auto;
     }
     h1, h2 {
         font-size: 25px;
@@ -236,13 +243,17 @@ h3 {
         padding: 20px 0 0 0;
     }
     .content {
-        margin: 100px auto 80px;
+        margin: 15px auto 80px;
         padding: 20px;
         width: 91%;
+        position: relative;
     }
     .content-body {
         padding: 2% 0 0;
     }
+    .white-header, .header-nav {
+        position: relative;
+    }    
 }
 
 @media screen and (max-width: 640px) {
@@ -253,7 +264,7 @@ h3 {
         font-size: 16px;
     }
     .content {
-        margin: 70px auto 60px;
+        margin: 15px auto 60px;
         width: 91%;
     }
     label {
@@ -286,9 +297,13 @@ h3 {
         padding: 2% 0 0;
     }
     h3 {
-        margin-top: 59%;
         width:95%;
-        margin-left: 0;
+        margin-left: 2.5%; 
         font-size: 17px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        margin-top: 0;
+        box-sizing: border-box;
     }
 }
